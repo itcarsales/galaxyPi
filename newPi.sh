@@ -4,7 +4,6 @@
 
 if ! [ $(id -u) -ne 0 ]; then
 	echo "Setup cannot be run with sudo"
-	echo "Please use: 'bash $0'"
 	exit 1
 fi
 
@@ -15,7 +14,7 @@ if [[ $installRPI != "Y" && $installRPI != "y" ]]; then
 fi
 
 # Set Hostname
-rHostname="piHome"
+rHostname="galaxyPi"
 sudo raspi-config nonint do_hostname $rHostname
 
 # Set Password
