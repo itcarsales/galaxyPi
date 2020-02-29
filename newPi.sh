@@ -1,5 +1,5 @@
 #!/bin/bash
-# piPresents newPi-piHome - Raspberry Pi Initialization Script
+# piPresents newPi - galaxyPi - Raspberry Pi Initialization Script
 # by Nick Haley
 
 if ! [ $(id -u) -ne 0 ]; then
@@ -10,7 +10,7 @@ fi
 
 echo && read -p "Would you like to initialize you raspberry pi? (y/n)" -n 1 -r -s installRPI && echo
 if [[ $installRPI != "Y" && $installRPI != "y" ]]; then
-	echo "newPi-piHome install cancelled."
+	echo "newPi install cancelled."
 	exit 1
 fi
 
