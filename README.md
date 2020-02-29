@@ -39,7 +39,7 @@
     - Password: ```raspberry```
   - run the following command to download the setup script from this repo, then follow along with the prompts
     #MODIFY THIS
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/piHome/master/newPi.sh?token=ABN5HDN5LSZKTYAGXN5LXRC6MPOKC)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/newPi.sh?token=ABN5HDOAP427NLWCE3KZFRK6MQA4S)```
     - Select your language, location, and timezone
       - I use ```en_US.UTF-8 UTF-8``` for US Language
   - Your Pi should complete the script and reboot automatically
@@ -49,6 +49,8 @@
   - You can now reconnect via SSH using ```piPresents``` as the new password
   - CHANGE THE PASSWORD NOW
     - type ```passwd``` and follow the prompts
+  - Shutdown for Part 2
+    - type ```sudo shutdown now```
 
 ## Part 1 Complete - You now have a starting point for most Raspberry Pi projects!
   - You can make changes by settings from this step by typing ```sudo raspi-config```
@@ -57,20 +59,25 @@
 
 # Part 2 - Hardware
 
-## Step 1) OLED
+## Step 1) Raspberry Pi
+  - Secure the Pi to the base using the 4x M2.5x4 screws
+
+## Step 2) OLED
   - Secure the OLED to the hat using the 4x M2x4 screws
   - Connect it to the Pi following the wiring diagram below
     - It won't break anything if you mix up SCL and SDA, it just wont work.  DO NOT cross VCC and GND
       - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
 
-  - PINOUT LINK FOR DIAGRAM
-
-## Step 2) Switch
+## Step 3) Switch
   - Mount the switch to the hat using its included nut and washer
-  - Connect it to the Pi following the same wiring diagram as Step 1
+  - Connect it to the Pi following the same wiring diagram below
     - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
 
+### PINOUT LINK FOR DIAGRAM
+
 ## Part 2 Complete - Your project hat is all ready to go!
+  - Assemble your case using the 6 #4 screws
+  - Be sure to remove the 3D-printed supports from the tab on the hat before sliding it into place
 
 # Part 3 - Programs
 
@@ -78,11 +85,11 @@
   - This will install Fail2Ban and Automatic Updates with weekly reboot and clean
     - I made this an optional step, but I strongly recommend using them
   - run the following command to download the setup script
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/piHome/master/extraSecurity.sh?token=ABN5HDN2PBAU2U7DJORVDOK6MPXQU)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/extraSecurity.sh?token=ABN5HDKGDQQNJSYGRZTYYAK6MQB2U)```
 
 ## Step 2) Pi-Hole
   - run the following command to download the setup script
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/piHome/master/piHoleInstaller.sh?token=ABN5HDJC3YKMRTOFVJASOXK6MPVDO)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/piHoleInstaller.sh?token=ABN5HDPNISI7DBPM36NKC4S6MQCFA)```
   -I recommend the following choices:
     - Google or OpenDNS DNS Provider
     - Default Block Lists
@@ -97,7 +104,7 @@
 
 ## Step 3) NodeRED and Mosquitto
   - run the following command to download the setup script
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/piHome/master/iotInstaller.sh?token=ABN5HDIRJS7U3NTZVDYDJIC6MPZFO)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/iotInstaller.sh?token=ABN5HDK7PYTIKE7FOGGG5ES6MQCN2)```
   - Your Pi should complete the script and reboot automatically
 
   - Verify the server is running at http://Your.IP.Address.Here:1880
