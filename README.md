@@ -90,7 +90,7 @@
 ## Step 2) Pi-Hole
   - run the following command to download the setup script
     - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/piHoleInstaller.sh?token=ABN5HDPNISI7DBPM36NKC4S6MQCFA)```
-  -I recommend the following choices:
+  - I recommend the following choices:
     - Google or OpenDNS DNS Provider
     - Default Block Lists
     - Both IPv4 and IPv6
