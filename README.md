@@ -117,6 +117,7 @@
   - Your Pi should complete the script and reboot automatically
   - Verify the server is running at http://Your.IP.Address.Here:1880
   - Chech the UI page at http://Your.IP.Address.Here:1880/ui
+  
 ![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/nodered.png)
 
 ## Step 3) Configure your home network
