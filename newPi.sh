@@ -7,7 +7,7 @@ if ! [ $(id -u) -ne 0 ]; then
 	exit 1
 fi
 
-echo && read -p "Would you like to initialize you raspberry pi? (y/n)" -n 1 -r -s installRPI && echo
+echo && read -p "Would you like to initialize your raspberry pi? (y/n)" -n 1 -r -s installRPI && echo
 if [[ $installRPI != "Y" && $installRPI != "y" ]]; then
 	echo "newPi install cancelled."
 	exit 1
