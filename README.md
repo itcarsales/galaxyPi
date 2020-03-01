@@ -2,7 +2,7 @@
   galaxyPi will configure a Raspberry Pi to act as a home server with Pi-hole adblocking, NodeRED IOT management, and a 0.96" OLED for system info.  A toggle switch provides an interupting input to turn the screen on or off via software instead of simply cutting power.  This project is meant for Intermediate-Level Makers as it has the potential to disrupt your Internet connection and requires working with electronic components.  It can also start an exciting journey into the Internet of Things, and allow Makers to experiment with a wide range of additional boards like the esp8266.
   
   This project does not walk a user through flashing images, or setting up wifi.  It assumes the user can image an SD card, add the blank "ssh" file, and connect to their fresh Raspbian install via SSH, and has some experience with a Raspberry Pi.  I will only touch on these steps.  I did design the project with commonly available parts in mind, so pin headers and jumper wires will work for both a breadboard, and fit inside the final, 3D printed case.
-  
+
 <img src="https://github.com/itcarsales/galaxyPi/blob/master/images/system.jpg" width="50%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/pihole.jpg" width="50%">
 
 ## Configures
@@ -24,7 +24,7 @@
 - 4x M2.5x4 screws for Raspberry Pi
 - 6x #4 3/4" screws for case
 
-![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/components.jpg)
+<img src="https://github.com/itcarsales/galaxyPi/blob/master/images/pi.jpg" width="25%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/cases.jpg" width="25%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/hat.jpg" width="25%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/components.jpg" width="25%">
 
 ### Warning
   - It is never a good practice to blindly run random shell scripts.  This is a learning tool and shortcut for makers.  Please review the comments and code before running each.  They have the power to corrupt your drives or install malicious software.
