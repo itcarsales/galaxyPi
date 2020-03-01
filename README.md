@@ -63,6 +63,7 @@
 
 ## Step 1) Raspberry Pi
   - Secure the Pi to the base using the 4x M2.5x4 screws
+![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
 
 ## Step 2) OLED
   - Secure the OLED to the hat using the 4x M2x4 screws
