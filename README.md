@@ -45,7 +45,7 @@
     - Password: ```raspberry```
   - run the following command to download the setup script from this repo, then follow along with the prompts
     #MODIFY THIS
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/newPi.sh?token=ABN5HDOAP427NLWCE3KZFRK6MQA4S)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/newPi.sh)```
     - Select your language, location, and timezone
       - I use ```en_US.UTF-8 UTF-8``` for US Language
   - Your Pi should complete the script and reboot automatically
@@ -97,7 +97,7 @@
 
 ## Step 1) Pi-Hole
   - Run the following command to download the setup script
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/piHoleInstaller.sh?token=ABN5HDPNISI7DBPM36NKC4S6MQCFA)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/piHoleInstaller.sh)```
   - I recommend the following choices:
     - Google or OpenDNS DNS Provider
     - Default Block Lists
@@ -113,7 +113,7 @@
 
 ## Step 2) NodeRED and Mosquitto
   - Run the following command to download the setup script
-    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/iotInstaller.sh?token=ABN5HDK7PYTIKE7FOGGG5ES6MQCN2)```
+    - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/iotInstaller.sh)```
   - Your Pi should complete the script and reboot automatically
   - Verify the server is running at http://Your.IP.Address.Here:1880
   - Chech the UI page at http://Your.IP.Address.Here:1880/ui
