@@ -20,6 +20,8 @@
 - 4x M2.5x4 screws for Raspberry Pi
 - 6x #4 3/4" screws for case
 
+![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/components.jpg)
+
 ### Warning
   - It is never a good practice to blindly run random shell scripts.  This is a learning tool and shortcut for makers.  Please review the comments and code before running each.  They have the power to corrupt your drives or install malicious software.
 
