@@ -108,7 +108,17 @@
   - Verify the server is running at http://Your.IP.Address.Here:1880
   - Chech the UI page at http://Your.IP.Address.Here:1880/ui
 
+## Step 3) Configure your home network
+  - The final step can vary widely since so many have different routers and network configurations
+  - The easiest way to configure your home network is to enable "DHCP Service" under the Pi-hole settings, then disable the "DHCP Service" on your router.  This allows your galaxyPi to serve IP addressess to new devices on your network and guarantees they use the prefered settings.  Most network devices should be restarted after this is complete
 
+## Step 4) Start building IOT devices!!
+  - Research the following devices with onboard wifi to continue your maker journey and add to amazing features to NodeRED
+    - esp8266
+    - esp32
+
+
+# Check back often for new projects!
   <hr>
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLRHALWRP3KJC)
