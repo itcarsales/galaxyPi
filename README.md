@@ -89,7 +89,7 @@
   - Be sure to remove the 3x 3D-printed supports from the tab on the hat before sliding it into place
     - I use a very small screwdriver to pry them out, but be careful not to break the tab.
   - Mount the hat to the top, slide it to the right to lock it in place, then tighten it using the remaining 2 #4 screws
-    - Be carefull of the wiring during this step: Do not pinch it or accidentally break the switch wires.
+    - Be careful of the wiring during this step: Do not pinch them or accidentally break the switch wires.
 
 ![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
