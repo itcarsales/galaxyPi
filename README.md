@@ -66,7 +66,7 @@
 ## Step 1) Raspberry Pi
   - Secure the Pi to the base using all 4 of the M2.5x4 screws
   - Secure the top to the base using 4 of the #4 screws
-  
+
 ![galaxyPi_Mount_Pi](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
 
 ## Step 2) OLED
@@ -129,6 +129,9 @@
 
 
 # Check back often for new projects!
+  ## Coming Soon:
+    - IOT esp8266 climate monitor with NodeRED data page and custom case
+
   <hr>
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MLRHALWRP3KJC)
