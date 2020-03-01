@@ -2,7 +2,9 @@
   galaxyPi will configure a Raspberry Pi to act as a home server with Pi-hole adblocking, NodeRED IOT management, and a 0.96" OLED for system info.  A toggle switch provides an interupting input to turn the screen on or off via software instead of simply cutting power.  This project is meant for Intermediate-Level Makers as it has the potential to disrupt your Internet connection and requires working with electronic components.  It can also start an exciting journey into the Internet of Things, and allow Makers to experiment with a wide range of additional boards like the esp8266.
   
   This project does not walk a user through flashing images, or setting up wifi.  It assumes the user can image an SD card, add the blank "ssh" file, and connect to their fresh Raspbian install via SSH, and has some experience with a Raspberry Pi.  I will only touch on these steps.  I did design the project with commonly available parts in mind, so pin headers and jumper wires will work for both a breadboard, and fit inside the final, 3D printed case.
-  
+![galaxyPi_example1](https://github.com/itcarsales/galaxyPi/blob/master/images/system.jpg)
+![galaxyPi_example2](https://github.com/itcarsales/galaxyPi/blob/master/images/pihole.jpg)
+
 ## Configures
 - Fail2Ban and Automatic Updates (extra security)
 - Pi-Hole
@@ -90,7 +92,7 @@
   - Mount the hat to the top, slide it to the right to lock it in place, then tighten it using the remaining 2 #4 screws
     - Be carefull of the wiring during this step: Do not pinch it or accidentally break the switch wires.
 
-![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
+![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
 # Part 3 - Programs
 
