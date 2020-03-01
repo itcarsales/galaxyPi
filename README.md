@@ -65,7 +65,8 @@
 
 ## Step 1) Raspberry Pi
   - Secure the Pi to the base using the 4x M2.5x4 screws
-![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
+  - Secure the top to the base using 4x #4 3/4" screws
+![galaxyPi_Mount_Pi](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
 
 ## Step 2) OLED
   - Secure the OLED to the hat using the 4x M2x4 screws
@@ -79,6 +80,8 @@
     - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
 
 ![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/galaxyPi_wiring.png)
+![galaxyPi_OLED](https://github.com/itcarsales/galaxyPi/blob/master/images/oled.jpg)
+![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/assemble.jpg)
 
 ## Part 2 Complete - Your project hat is all ready to go!
   - Assemble your case using the 6 #4 screws
