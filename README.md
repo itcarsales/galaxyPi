@@ -120,14 +120,16 @@
 
 ## Step 3) Configure your home network
   - The final step can vary widely since so many have different routers and network configurations
-  - The easiest way to configure your home network is to enable "DHCP Service" under the Pi-hole settings, then disable the "DHCP Service" on your router.  This allows your galaxyPi to serve IP addressess to new devices on your network and guarantees they use the prefered settings.  Most network devices should be restarted after this is complete
+  - The easiest way to configure your home network is to enable "DHCP Server Enabled" under the Pi-hole Settings > DHCP, then disable the "DHCP Service" on your router.  This allows your galaxyPi to serve IP addressess to new devices on your network and guarantees they use the prefered settings.  Most network devices should be restarted after this is complete
+
+![galaxyPi_dhcp](https://github.com/itcarsales/galaxyPi/blob/master/images/dhcp.png)
 
 ## Step 4) Start building IOT devices!!
   - Research the following devices with onboard wifi to continue your maker journey and add to amazing features to NodeRED
     - esp8266
     - esp32
-    
-![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/nodered.png)
+
+![galaxyPi_nodered](https://github.com/itcarsales/galaxyPi/blob/master/images/nodered.png)
 
 # Check back often for new projects!
 ## Coming Soon:
