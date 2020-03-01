@@ -129,8 +129,8 @@
 
 
 # Check back often for new projects!
-  ## Coming Soon:
-    - IOT esp8266 climate monitor with NodeRED data page and custom case
+## Coming Soon:
+  - IOT esp8266 climate monitor with NodeRED data page and custom case
 
   <hr>
 
