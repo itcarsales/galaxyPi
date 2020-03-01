@@ -4,7 +4,7 @@
   This project does not walk a user through flashing images, or setting up wifi.  It assumes the user can image an SD card, add the blank "ssh" file, and connect to their fresh Raspbian install via SSH, and has some experience with a Raspberry Pi.  I will only touch on these steps.  I did design the project with commonly available parts in mind, so pin headers and jumper wires will work for both a breadboard, and fit inside the final, 3D printed case.
 ![galaxyPi_example1](https://github.com/itcarsales/galaxyPi/blob/master/images/system.jpg) <!-- .element height="50%" width="50%" --> 
 ![galaxyPi_example2](https://github.com/itcarsales/galaxyPi/blob/master/images/pihole.jpg) <!-- .element height="50%" width="50%" -->
-
+<img src="https://github.com/itcarsales/galaxyPi/blob/master/images/system.jpg" width="20%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/pihole.jpg" width="20%">
 ## Configures
 - Fail2Ban and Automatic Updates (extra security)
 - Pi-Hole
