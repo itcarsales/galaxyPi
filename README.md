@@ -17,7 +17,7 @@
 - 8Gb SD Card or larger
 - Ethernet Connection
   - While this server will work over wifi with no code changes, I STRONGLY recommend against it.  Hardwire things your network relies on.
-- Case - https://www.prusaprinters.org/prints/23922
+- Case - https://www.prusaprinters.org/print/24599
 - 0.96" OLED - SSD1306
 - Toggle switch (any will do - 3 position automotive toggle is what I had a pile of in a drawer)
 - Jumper wires - or soldered connections
