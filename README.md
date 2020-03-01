@@ -83,8 +83,7 @@
     - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
 
 ![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/galaxyPi_wiring.png)
-![galaxyPi_OLED](https://github.com/itcarsales/galaxyPi/blob/master/images/oled.jpg)
-![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/assemble.jpg)
+<img src="https://github.com/itcarsales/galaxyPi/blob/master/images/oled.jpg" width="50%"><img src="https://github.com/itcarsales/galaxyPi/blob/master/images/assemble.jpg" width="50%">
 
 ## Part 2 Complete - Your project hat is all ready to go!
   - Be sure to remove the 3x 3D-printed supports from the tab on the hat before sliding it into place
