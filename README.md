@@ -64,12 +64,12 @@
 # Part 2 - Hardware
 
 ## Step 1) Raspberry Pi
-  - Secure the Pi to the base using the 4x M2.5x4 screws
-  - Secure the top to the base using 4x #4 3/4" screws
+  - Secure the Pi to the base using all 4 of the M2.5x4 screws
+  - Secure the top to the base using 4 of the #4 screws
 ![galaxyPi_Mount_Pi](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
 
 ## Step 2) OLED
-  - Secure the OLED to the hat using the 4x M2x4 screws
+  - Secure the OLED to the hat using all 4 of the M2x4 screws
   - Connect it to the Pi following the wiring diagram below
     - It won't break anything if you mix up SCL and SDA, it just wont work.  DO NOT cross VCC and GND
       - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
@@ -82,11 +82,13 @@
 ![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/galaxyPi_wiring.png)
 ![galaxyPi_OLED](https://github.com/itcarsales/galaxyPi/blob/master/images/oled.jpg)
 ![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/assemble.jpg)
-![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
 ## Part 2 Complete - Your project hat is all ready to go!
-  - Assemble your case using the 6 #4 screws
-  - Be sure to remove the 3D-printed supports from the tab on the hat before sliding it into place
+  - Be sure to remove the 3x 3D-printed supports from the tab on the hat before sliding it into place
+    - I use a very small screwdriver to pry them out, but be careful not to break the tab.
+  - Mount the hat to the top, slide it to the right to lock it in place, then tighten it using the remaining 2 #4 screws
+    - Be carefull of the wiring during this step: Do not pinch it or accidentally break the switch wires.
+![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
 # Part 3 - Programs
 
