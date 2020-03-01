@@ -73,7 +73,7 @@
   - Connect it to the Pi following the same wiring diagram below
     - All components can use a common ground, or any of the GPIO ground pins.  I used this wiring for simplicity and example.
 
-### PINOUT LINK FOR DIAGRAM
+![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/galaxyPi_wiring.png)
 
 ## Part 2 Complete - Your project hat is all ready to go!
   - Assemble your case using the 6 #4 screws
