@@ -2,6 +2,17 @@
 #piPresents galaxyPi (updated for buster)
 #Main Module
 
+if ! [ $(id -u) -ne 0 ]; then
+	echo "Setup cannot be run with sudo"
+	exit 1
+fi
+
+echo && read -p "Would you like to install galaxyPi? (y/n)" -n 1 -r -s installRPI && echo
+if [[ $installRPI != "Y" && $installRPI != "y" ]]; then
+	echo "galaxyPi install cancelled."
+	exit 1
+fi
+
 # Update and Install packages
 sudo apt-get update -y
 sudo apt-get -y install fail2ban unattended-upgrades python3-dev python-smbus i2c-tools python3-pil python3-pip python3-setuptools python3-rpi.gpio git
@@ -34,7 +45,7 @@ crontab -l | { cat; echo "@reboot python3 /home/pi/galaxyOLED.py &"; } | crontab
 
 # Download OLED script from repo
 #EDIT THIS FOR RELEASE
-curl https://raw.githubusercontent.com/itcarsales/galaxyPi/master/galaxyOLED.py?token=ABN5HDJIGK3ZL3TOD2H5BES6MQCAW -o ~/galaxyOLED.py
+curl https://raw.githubusercontent.com/itcarsales/galaxyPi/master/galaxyOLED.py -o ~/galaxyOLED.py
 
 # Install pi-Hole
 curl -sSL https://install.pi-hole.net | bash
