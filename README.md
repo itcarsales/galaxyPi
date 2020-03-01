@@ -118,6 +118,8 @@
   - Verify the server is running at http://Your.IP.Address.Here:1880
   - Chech the UI page at http://Your.IP.Address.Here:1880/ui
 
+![galaxyPi_nodered](https://github.com/itcarsales/galaxyPi/blob/master/images/nodepage.png)
+
 ## Step 3) Configure your home network
   - The final step can vary widely since so many have different routers and network configurations
   - The easiest way to configure your home network is to enable "DHCP Server Enabled" under the Pi-hole Settings > DHCP, then disable the "DHCP Service" on your router.  This allows your galaxyPi to serve IP addressess to new devices on your network and guarantees they use the prefered settings.  Most network devices should be restarted after this is complete
