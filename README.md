@@ -82,6 +82,7 @@
 ![galaxyPi_Wiring](https://github.com/itcarsales/galaxyPi/blob/master/images/galaxyPi_wiring.png)
 ![galaxyPi_OLED](https://github.com/itcarsales/galaxyPi/blob/master/images/oled.jpg)
 ![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/assemble.jpg)
+![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
 ## Part 2 Complete - Your project hat is all ready to go!
   - Assemble your case using the 6 #4 screws
