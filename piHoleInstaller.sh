@@ -44,7 +44,6 @@ sudo rm -rf /home/pi/Adafruit_Python_SSD1306
 crontab -l | { cat; echo "@reboot python3 /home/pi/galaxyOLED.py &"; } | crontab -
 
 # Download OLED script from repo
-#EDIT THIS FOR RELEASE
 curl https://raw.githubusercontent.com/itcarsales/galaxyPi/master/galaxyOLED.py -o ~/galaxyOLED.py
 
 # Install pi-Hole
