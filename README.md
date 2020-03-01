@@ -117,8 +117,6 @@
   - Your Pi should complete the script and reboot automatically
   - Verify the server is running at http://Your.IP.Address.Here:1880
   - Chech the UI page at http://Your.IP.Address.Here:1880/ui
-  
-![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/nodered.png)
 
 ## Step 3) Configure your home network
   - The final step can vary widely since so many have different routers and network configurations
@@ -128,7 +126,8 @@
   - Research the following devices with onboard wifi to continue your maker journey and add to amazing features to NodeRED
     - esp8266
     - esp32
-
+    
+![galaxyPi_complete](https://github.com/itcarsales/galaxyPi/blob/master/images/nodered.png)
 
 # Check back often for new projects!
 ## Coming Soon:
