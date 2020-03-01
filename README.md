@@ -66,6 +66,7 @@
 ## Step 1) Raspberry Pi
   - Secure the Pi to the base using all 4 of the M2.5x4 screws
   - Secure the top to the base using 4 of the #4 screws
+  
 ![galaxyPi_Mount_Pi](https://github.com/itcarsales/galaxyPi/blob/master/images/case.jpg)
 
 ## Step 2) OLED
@@ -88,6 +89,7 @@
     - I use a very small screwdriver to pry them out, but be careful not to break the tab.
   - Mount the hat to the top, slide it to the right to lock it in place, then tighten it using the remaining 2 #4 screws
     - Be carefull of the wiring during this step: Do not pinch it or accidentally break the switch wires.
+
 ![galaxyPi_assemble](https://github.com/itcarsales/galaxyPi/blob/master/images/complete.jpg)
 
 # Part 3 - Programs
