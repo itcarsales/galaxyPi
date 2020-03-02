@@ -17,7 +17,7 @@
 - 8Gb SD Card or larger
 - Ethernet Connection
   - While this server will work over wifi with no code changes, I STRONGLY recommend against it.  Hardwire things your network relies on.
-- Case - https://www.prusaprinters.org/print/24599
+- Case - https://www.prusaprinters.org/prints/24599-galaxypi-pi-hole-and-nodered-server
 - 0.96" OLED - SSD1306
 - Toggle switch (any will do - 3 position automotive toggle is what I had a pile of in a drawer)
 - Jumper wires - or soldered connections
@@ -45,7 +45,6 @@
     - ```ssh pi@PI.IP.ADDRESS.HERE```
     - Password: ```raspberry```
   - run the following command to download the setup script from this repo, then follow along with the prompts
-    #MODIFY THIS
     - ```bash <(curl -Ls https://raw.githubusercontent.com/itcarsales/galaxyPi/master/newPi.sh)```
     - Select your language, location, and timezone
       - I use ```en_US.UTF-8 UTF-8``` for US Language
